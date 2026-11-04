@@ -1,4 +1,5 @@
-# コンパイル生成物
+# ビルド生成物
+/build/
 *.class
 /out/
 /target/
@@ -7,15 +8,16 @@
 .idea/
 *.iml
 
-# Eclipse
-.project
-.classpath
-.settings/
-
 # OS依存
 .DS_Store
 *.log
 
-.metadata
+# Eclipseのワークスペース設定
+.metadata/
+/bin/
 
+# Eclipseのプロジェクト設定
+.project
+.classpath
+.settings/
 Servers/
